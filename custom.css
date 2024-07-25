@@ -1,0 +1,62 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap');
+body{
+    background: black;
+    margin: 0px;
+}
+header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+/* nav */
+nav h1{
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 36px;
+    color: #E6533C;
+}
+nav{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav ul{
+    width: 60%;
+    display: flex;
+    column-gap: 12px;
+    justify-content: flex-end;
+    align-items:center ;
+    padding: 4px;
+    border: 1px solid #ffffff1a;
+    border-radius: 30px;
+}
+
+
+nav ul li{
+    list-style-type: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 8px 20px;
+    margin: 0px 4px;
+}
+.active{
+    background: #E6533C;
+    border: none;
+    border-radius: 30px;
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+/* text color */
+.text-white{
+    color: white;
+}
+/* background color */
