@@ -13,6 +13,9 @@ nav h1{
     font-style: italic;
     font-weight: 800;
     font-size: 36px;
+}
+nav h1 a{
+    text-decoration: none;
     color: #E6533C;
 }
 nav{
@@ -44,6 +47,10 @@ nav ul li{
     padding: 8px 20px;
     margin: 0px 4px;
 }
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
 .active{
     background: #E6533C;
     border: none;
@@ -56,7 +63,5 @@ nav ul li{
     margin: auto;
 }
 /* text color */
-.text-white{
-    color: white;
-}
+
 /* background color */
