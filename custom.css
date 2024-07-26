@@ -195,3 +195,47 @@ nav ul li a{
     font-size: 14px;
     font-weight: 400;
 }
+/* habit section */
+.habit{
+    padding: 60px 0;
+}
+
+.habit-heading h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    padding: 12px 0;
+}
+.habit-heading p{
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+}
+.habit-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 64px 0;
+}
+.habit-card img{
+    border: 1px solid white;
+    border-radius: 100%;
+}
+.habit-card h6{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px 0;
+}
+.habit-card p{
+    color: rgba(239, 237, 232, 0.65);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+}
+.habit-card-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
