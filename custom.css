@@ -291,3 +291,105 @@ nav ul li a{
     object-fit: cover;
     overflow: hidden;
 }
+.bmi-heading{
+    margin: 32px auto;
+    width: 50%;
+    padding: 50px 0;
+}
+.bmi-heading h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 16px;
+}
+.bmi-heading p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    width: 80%;
+    line-height: 24px;
+}
+.bmi-section{
+    background: rgb(34, 34, 34);
+    margin: auto 0;
+    
+}
+.bmi{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 48px;
+}
+.bmi-chart{
+    margin: auto 0;
+    padding-left: 50px;
+}
+.bmi h1{
+    color: white;
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 32px;
+}
+.row-border td,th{
+    outline: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 12px;
+    width: 40%;
+}
+.row-border th{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    text-align: left;
+}
+.row-border td{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.bmi-calc-heading h1{
+    color: white;
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 12px;
+}
+.bmi-calc-heading p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    width: 70%;
+    line-height: 24px;
+}
+.calc{
+    margin: 32px 0 0;
+}
+.calc input:focus,select:focus{
+    outline: none;
+}
+.calc input,select,option{
+    border: none;
+    border-radius: 8px;
+    padding: 14px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 500;
+}
+.input-group{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 12px;
+}
+.bg{
+    background-color: rgb(48, 47, 47)!important; 
+}
+.activity{
+    width: 100%;
+    margin: 16px 0;
+}
+.calc button{
+    color: white;
+    background: #E6533C;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 12px 60px;
+    border: none;
+    border-radius: 32px;
+    margin: 16px 0;
+}
