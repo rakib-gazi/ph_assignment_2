@@ -221,7 +221,7 @@ nav ul li a{
 .habit-card img{
     border: 1px solid white;
     border-radius: 100%;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
 }
 .habit-card h6{
     color: white;
@@ -239,4 +239,55 @@ nav ul li a{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+/* run section */
+.run{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border: none;
+    border-radius: 16px;
+    background: rgb(34, 34, 34);
+    padding: 32px 50px;
+    margin: 24px auto;
+}
+.run-content{
+    margin: auto 0;
+}
+.run h2{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+}
+.run p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    padding: 32px 0 50px;
+    width: 60%;
+    line-height: 24px;
+
+}
+.run a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid #E6533C;
+    border-radius: 24px;
+    background:#E6533C;
+    padding: 12px 64px;
+}
+
+.run-img{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.run img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    overflow: hidden;
 }
