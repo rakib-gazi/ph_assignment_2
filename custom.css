@@ -221,6 +221,7 @@ nav ul li a{
 .habit-card img{
     border: 1px solid white;
     border-radius: 100%;
+    margin-bottom: 12px;
 }
 .habit-card h6{
     color: white;
