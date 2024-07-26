@@ -393,3 +393,76 @@ nav ul li a{
     border-radius: 32px;
     margin: 16px 0;
 }
+/* team section */
+.team-heading{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.team-heading h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    padding: 12px 0;
+}
+.team-heading p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    line-height: 24px;
+    width: 60%;
+    margin: 0 auto;
+}
+.team{
+    padding: 32px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 16px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 16px 0;
+}
+.team .members{
+    border: none;
+    border-radius: 16px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.team .team-name{
+    position: absolute;
+    top: auto;
+    bottom: 10%;
+    right: auto;
+    left: 5%;
+}
+.team div h6{
+   color: white;
+   font-size: 22px;
+   font-weight: 600;
+}
+.team div p{
+    color: rgba(255, 255, 255, 0.5);
+   font-size: 16px;
+   font-weight: 600;
+}
+.team-bg1{
+    background-image: url(images/trainer1.png);
+}
+.team-bg2{
+    background-image: url(images/trainer2.png);
+}
+.team-bg3{
+    background-image: url(images/trainer3.png);
+}
+ .team-bg4{
+    background-image: url(images/trainer4.png);
+}
+.team-bg5{
+    background-image: url(images/trainer5.png);
+}
+.team-bg6{
+    background-image: url(images/trainer6.png);
+} 
