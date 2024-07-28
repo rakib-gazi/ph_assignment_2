@@ -672,13 +672,36 @@ footer{
         border: none;
         border-radius: 16px;
         background: rgb(34, 34, 34);
-        padding: 32px 0px;
+        padding: 8px 8px;
         margin: 24px auto;
+    }
+    .run-content{
+        margin: 0 auto 42px ;
     }
     .run h2{
         color: white;
         font-size: 32px;
         font-weight: 900;
+    }
+    .run p{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        font-weight: 400;
+        padding: 32px 0 50px;
+        width: 90%;
+        line-height: 24px;
+    
+    }
+    .run a{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        border: 1px solid #E6533C;
+        border-radius: 24px;
+        background:#E6533C;
+        padding: 12px 80px;
+        margin: 0 auto;
     }
     /* bmi calculatior section */
     .bmi{
@@ -686,35 +709,58 @@ footer{
         grid-template-columns: repeat(1,1fr);
         padding: 0px;
     }
+    .bmi-heading{
+        margin: 32px auto 0;
+        width: 100%;
+        padding: 50px 0;
+    }
     .bmi-heading h1{
         color: white;
         font-size: 32px;
         font-weight: 900;
         padding-bottom: 16px;
     }
+    .bmi-heading p{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        width: 90%;
+        line-height: 24px;
+    }
     .bmi-chart{
-        margin: auto 0;
+        margin: 16px 0;
         padding-left: 0px;
     }
     .bmi h1{
         color: white;
         font-size: 18px;
         font-weight: 900;
-        margin-bottom: 32px;
+        margin-top: 32px;
     }
     .row-border td,th{
         outline: 1px solid rgba(255, 255, 255, 0.5);
-        padding: 4px;
+        padding: 8px;
     }
     .row-border th{
-        font-size: 12px;
+        font-size: 16px;
         font-weight: 500;
         color: white;
         text-align: left;
     }
     .row-border td{
-        font-size: 10px;
+        font-size: 14px;
         color: rgba(255, 255, 255, 0.5);
+    }
+    .bmi-calc-heading h1{
+        color: white;
+        font-size: 18px;
+        font-weight: 900;
+        margin-bottom: 12px;
+    }
+    .bmi-calc-heading p{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        width: 90%;
+        line-height: 24px;
     }
     .calc input,select,option{
         border: none;
@@ -727,8 +773,8 @@ footer{
     }
     .input-group{
         display: grid;
-        grid-template-columns: repeat(1,1fr);
-        gap: 12px;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
     }
     .bg{
         background-color: rgb(48, 47, 47)!important; 
@@ -745,8 +791,9 @@ footer{
         padding: 12px 60px;
         border: none;
         border-radius: 32px;
-        margin: 16px 0;
+        margin: 16px 0 32px;
     }
+
     /* team section */
     .team{
         padding: 32px;
@@ -777,11 +824,59 @@ footer{
         width: 100%;
         margin: 0 auto;
     }
+    .team-bg4{
+        background-image: url(images/trainer4.png);
+        background-position: center;
+    }
     /* footer */
     .footer{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        padding: 64px 0;
+        padding: 0 0;
+    }
+    .footer h1{
+        font-style: italic;
+        font-weight: 800;
+        font-size: 60px;
+        padding: 0 0 25px;
+    }
+    .footer h1 a{
+        text-decoration: none;
+        color: #E6533C;
+    }
+    .footer p{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 16px;
+        line-height: 24px;
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    .footer-col{
+        display: flex;
+        flex-direction: column;
+        margin: 0 0;
+        margin-bottom: 20px;
+    }
+    .footer-col h2{
+        color: white;
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 16px;
+    }
+    .footer-col a{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 20px;
+        padding: 12px 0;
+        text-decoration: none;
+    }
+    .copyright{
+        border-top: 2px solid rgba(255, 255, 255, 0.1);
+    }
+    .copyright p{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 18px;
+        padding: 36px 0;
+        text-align: center;
     }
 
 }
