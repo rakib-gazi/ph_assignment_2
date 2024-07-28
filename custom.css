@@ -517,7 +517,10 @@ footer{
 
 /* Mobile resposive */
 @media screen and (max-width:576px) {
-   
+   *{
+    margin: 0;
+    padding: 0;
+   }
     .container{
         width: 90%;
         margin: auto;
@@ -537,7 +540,7 @@ footer{
     .hero {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin:  0 0 0 32px ;
+        margin-bottom: 100px;
         
     }
     .hero h1{
@@ -560,35 +563,107 @@ footer{
     .btn-red{
         text-decoration: none;
         color: white;
-        font-size: 16px;
+        font-size: 14px;
         background: #E6533C;
         border: 1px solid #E6533C;
         border-radius: 30px;
-        padding: 10px 20px;
+        padding: 8px 16px;
         margin: 0px 4px;
     }
     .btn-white{
         text-decoration: none;
         color: white;
-        font-size: 16px;
+        font-size: 14px;
         background: transparent;
         border: 1px solid rgb(255, 255, 255);
         border-radius: 30px;
-        padding: 10px 20px;
+        padding: 8px 16px;
         margin: 0px 4px;
     }
+    .hero-img{
+         margin-top: 50px; 
+        height: 400px;
+        background-image: url(images/hero-bg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        position: relative;
+    }
+    .hero-card{
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        backdrop-filter: blur(20px);
+        background: rgba(48, 48, 48, 0.54);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 12px;
+        padding: 12px;
+        width: 45%;
+        position: absolute;
+        top: auto;
+        bottom: 35%;
+        
+    }
+    .hero-card-2{
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        backdrop-filter: blur(20px);
+        background: rgba(48, 48, 48, 0.54);
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        column-gap: 12px;
+        padding: 12px;
+        width: 35%;
+        position: absolute;
+        top: 8%;
+        bottom: auto;
+        left: auto;
+        right: 2%;
+        
+    }
+    .red-circle{
+        height: 25px;
+        width: 25px;
+        background: #E6533C;
+        border: 1px solid #E6533C;
+        border-radius: 100%;
+    }
+    .hero-card h5{
+        color: white;
+        font-size: 18px;
+        padding-bottom: 4px;
+    }
+    .hero-card-2 h5{
+        color: white;
+        font-size: 24px;
+        padding-bottom: 4px;
+    }
+    .hero-card p{
+        color: rgba(239, 237, 232, 0.65);
+        font-size: 12px;
+    }
+    .hero-card-2 p{
+        color: rgba(239, 237, 232, 0.65);
+        font-size: 10px;
+    }
     /* habit section */
+    .habit{
+        padding-bottom: 0;
+    }
     .habit-heading h1{
         color: white;
         text-align: center;
         font-size: 32px;
         font-weight: 900;
         padding: 12px 0;
+        margin-top: 32px;
     }
     .habit-card{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        padding: 64px 0;
+        gap: 32px;
     }
     /* run section */
     .run{
