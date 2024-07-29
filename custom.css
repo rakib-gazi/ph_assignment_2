@@ -276,17 +276,16 @@ nav ul li a{
 }
 
 .run-img{
-    height: 100%;
-    width: 80%;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
 }
 .run img{
     height: 300px;
-    width: 300px;
-    object-fit: cover;
-    overflow: hidden;
+    width: 350px;
+    object-fit: none;
+    object-position: 66% 30%;
+    border: none;
+    border-radius:  16px;
 }
 .bmi-heading{
     margin: 32px auto;
@@ -672,11 +671,14 @@ footer{
         border: none;
         border-radius: 16px;
         background: rgb(34, 34, 34);
-        padding: 8px 8px;
         margin: 24px auto;
+        padding: 0px 0px;
     }
     .run-content{
         margin: 0 auto 42px ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .run h2{
         color: white;
@@ -702,6 +704,20 @@ footer{
         background:#E6533C;
         padding: 12px 80px;
         margin: 0 auto;
+    }
+    .run-img{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 32px;
+    }
+    .run img{
+        height: 300px;
+        width: 300px;
+        object-fit: none;
+        object-position: 66% 30%;
+        border: none;
+        border-radius:  16px;
+        overflow: hidden;
     }
     /* bmi calculatior section */
     .bmi{
