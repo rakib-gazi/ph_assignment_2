@@ -1,5 +1,6 @@
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -41,10 +42,10 @@ nav .menu-icon{
     align-items: center;
 }
 nav ul{
-    width: 60%;
+    
     display: flex;
     column-gap: 12px;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items:center ;
     padding: 4px;
     border: 1px solid #ffffff1a;
@@ -64,10 +65,23 @@ nav ul li a{
     text-decoration: none;
     color: white;
 }
+nav ul li:hover{
+    transition-timing-function: ease-out;
+    transition-duration: .3s;
+    background: #E6533C;
+    border: none;
+    border-radius: 30px;
+}
 .active{
     background: #E6533C;
     border: none;
     border-radius: 30px;
+}
+.active:hover{
+    background: transparent;
+    border-radius: 30px;
+    transition-timing-function: ease-out;
+    transition-duration: .3s;
 }
 
 
@@ -90,6 +104,11 @@ nav ul li a{
     font-size: 68px;
     margin:0px;
     padding: 16px 0px;
+}
+.shape{
+    font-family: 'Miama', sans-serif;
+    letter-spacing: 8px;
+    font-size: 85px!important;
 }
 .hero-content p{
     color: rgba(255, 255, 255, 0.5);
@@ -219,7 +238,7 @@ nav ul li a{
     padding: 64px 0;
 }
 .habit-card img{
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 100%;
     margin-bottom: 8px;
 }
@@ -245,10 +264,11 @@ nav ul li a{
 .run{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    width: 80%;
     border: none;
     border-radius: 16px;
     background: rgb(34, 34, 34);
-    padding: 32px 50px;
+    padding: 3rem;
     margin: 24px auto;
 }
 .run-content{
@@ -282,10 +302,11 @@ nav ul li a{
 .run-img{
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 .run img{
-    height: 300px;
-    width: 350px;
+    height: 350px;
+    width: 400px;
     object-fit: none;
     object-position: 66% 30%;
     border: none;
@@ -376,6 +397,7 @@ nav ul li a{
     grid-template-columns: repeat(2,1fr);
     gap: 12px;
 }
+
 .bg{
     background-color: rgb(48, 47, 47)!important; 
 }
@@ -426,7 +448,7 @@ nav ul li a{
 .team .members{
     border: none;
     border-radius: 16px;
-    height: 300px;
+    height: 350px;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -449,23 +471,28 @@ nav ul li a{
    font-weight: 600;
 }
 .team-bg1{
-    background-image: url(images/trainer1.png);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),url(images/trainer1.png);
+    background-position: center;
 }
 .team-bg2{
-    background-image: url(images/trainer2.png);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),url(images/trainer2.png);
+    background-position: center;
 }
 .team-bg3{
-    background-image: url(images/trainer3.png);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),url(images/trainer3.png);
+    background-position: center;
 }
  .team-bg4{
-    background-image: url(images/trainer4.png);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),url(images/trainer4.png);
     background-position: center;
 }
 .team-bg5{
-    background-image: url(images/trainer5.png);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),url(images/trainer5.png);
+    background-position: center;
 }
 .team-bg6{
-    background-image: url(images/trainer6.png);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),url(images/trainer6.png);
+    background-position: center;
 } 
 /* footer part */
 footer{
@@ -519,7 +546,7 @@ footer{
     text-align: center;
 }
 
-/* Mobile resposive */
+/* Mobile  */
 @media screen and (max-width:576px) {
    *{
     margin: 0;
@@ -724,7 +751,7 @@ footer{
         border-radius:  16px;
         overflow: hidden;
     }
-    /* bmi calculatior section */
+    /* bmi calculator section */
     .bmi{
         display: grid;
         grid-template-columns: repeat(1,1fr);
