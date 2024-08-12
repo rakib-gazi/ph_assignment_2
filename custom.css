@@ -343,6 +343,12 @@ nav ul li:hover{
 .bmi-chart{
     margin: auto 0;
     padding-left: 50px;
+    width: 70%;
+    height: auto;
+}
+.bmi-chart table{
+        width: 100%;
+        table-layout: fixed;
 }
 .bmi h1{
     color: white;
@@ -352,8 +358,7 @@ nav ul li:hover{
 }
 .row-border td,th{
     outline: 1px solid rgba(255, 255, 255, 0.5);
-    padding: 12px;
-    width: 40%;
+    padding: 20px 12px;
 }
 .row-border th{
     font-size: 16px;
@@ -415,6 +420,77 @@ nav ul li:hover{
     border-radius: 32px;
     margin: 16px 0;
 }
+/* gym routine */
+.weekly-routine h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 24px 0;
+    margin-top: 30px;
+}
+.weekly-routine p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding-bottom: 24px;
+}
+.schedule {
+    margin: 0 auto 24px;
+}
+.routine {
+    width: 100%;
+    table-layout: fixed;
+}
+.routine th{
+    font-weight: bold;
+}
+.routine thead tr{
+    background: rgb(34, 34, 34);
+}
+.routine tbody th{
+    background: rgb(34, 34, 34);
+}
+
+.routine td {
+    height: 80px;
+    width: auto;
+}
+.personal-training {
+    color: #6dc3b0!important;
+}
+
+.gym-fitness {
+    color: #f9a43b!important;
+}
+
+.cycling-class {
+    color: #e57373!important;
+}
+
+.boxing-class {
+    color: #81d4fa!important;
+}
+
+.kettlebell-class {
+    color: #f06292!important;
+}
+
+.zumba {
+    color: #ba68c8!important;
+}
+
+
+
+
+
+
+
+
+
 /* team section */
 .team-heading{
     width: 70%;
@@ -713,9 +789,9 @@ footer{
         justify-content: center;
     }
     .run h2{
-        color: white;
         font-size: 32px;
-        font-weight: 900;
+        padding-top: 24px;
+        padding-left: 20px!important;
     }
     .run p{
         color: rgba(255, 255, 255, 0.5);
@@ -724,7 +800,7 @@ footer{
         padding: 32px 0 50px;
         width: 90%;
         line-height: 24px;
-    
+        padding-left: 20px!important;
     }
     .run a{
         text-decoration: none;
@@ -744,9 +820,7 @@ footer{
     }
     .run img{
         height: 300px;
-        width: 300px;
-        object-fit: none;
-        object-position: 66% 30%;
+        width: 350px;
         border: none;
         border-radius:  16px;
         overflow: hidden;
@@ -777,6 +851,7 @@ footer{
     .bmi-chart{
         margin: 16px 0;
         padding-left: 0px;
+        width: 90%;
     }
     .bmi h1{
         color: white;
@@ -786,13 +861,16 @@ footer{
     }
     .row-border td,th{
         outline: 1px solid rgba(255, 255, 255, 0.5);
-        padding: 8px;
+        padding: 12px;
     }
     .row-border th{
         font-size: 16px;
         font-weight: 500;
         color: white;
         text-align: left;
+    }
+    .day-font{
+        font-size: 9px!important;
     }
     .row-border td{
         font-size: 14px;
@@ -840,6 +918,68 @@ footer{
         border: none;
         border-radius: 32px;
         margin: 16px 0 32px;
+    }
+    /* gym routine */
+    .weekly-routine h1{
+        font-size: 36px;
+    }
+    .weekly-routine p{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        padding-bottom: 24px;
+    }
+    .schedule {
+        margin: 0 auto 24px;
+    }
+    .routine {
+        width: 100%;
+        table-layout: fixed;
+    }
+    .routine th{
+        font-weight:300;
+        font-size: 10px;
+        text-align: center;
+    }
+    .routine td{
+        font-size: 10px;
+        text-align: center;
+    }
+    .routine thead tr{
+        background: rgb(34, 34, 34);
+    }
+    .routine tbody th{
+        background: rgb(34, 34, 34);
+    }
+
+    .routine td {
+        height: 80px;
+        width: auto;
+    }
+    .personal-training {
+        color: #6dc3b0!important;
+    }
+
+    .gym-fitness {
+        color: #f9a43b!important;
+    }
+
+    .cycling-class {
+        color: #e57373!important;
+    }
+
+    .boxing-class {
+        color: #81d4fa!important;
+    }
+
+    .kettlebell-class {
+        color: #f06292!important;
+    }
+
+    .zumba {
+        color: #ba68c8!important;
     }
 
     /* team section */
