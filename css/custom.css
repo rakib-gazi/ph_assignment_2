@@ -145,7 +145,7 @@ nav ul li:hover{
     margin: 0px 4px;
 }
 .hero-img{
-    background-image: url(images/hero-bg.png);
+    background-image: url(../images/hero-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -491,13 +491,6 @@ nav ul li:hover{
 }
 
 
-
-
-
-
-
-
-
 /* team section */
 .team-heading{
     width: 70%;
@@ -554,27 +547,27 @@ nav ul li:hover{
    font-weight: 600;
 }
 .team-bg1{
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),url(images/trainer1.png);
-    background-position: center;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),url(../images/trainer1.png);
+    background-position: contain;
 }
 .team-bg2{
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),url(images/trainer2.png);
-    background-position: center;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),url(../images/trainer2.png);
+    background-position: contain;
 }
 .team-bg3{
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),url(images/trainer3.png);
-    background-position: center;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),url(../images/trainer3.png);
+    background-position: contain;
 }
  .team-bg4{
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),url(images/trainer4.png);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),url(../images/trainer4.png);
     background-position: center;
 }
 .team-bg5{
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),url(images/trainer5.png);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),url(../images/trainer5.png);
     background-position: center;
 }
 .team-bg6{
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),url(images/trainer6.png);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent),url(../images/trainer6.png);
     background-position: center;
 } 
 /* footer part */
@@ -644,8 +637,12 @@ footer{
         justify-content: flex-end;
         align-items: center;
     }
-    nav img{
+    
+    nav i{
         display: block;
+        color: white;
+        font-size: 30px;
+
     }
     .list{
         display: none;
@@ -663,6 +660,11 @@ footer{
         font-weight: 900;
         padding: 16px 0px;
         margin-top: 32px;
+        line-height: 48px;
+    }
+    .shape{
+        font-size: 60px!important;
+        font-weight: 200;
     }
     .hero-content {
         padding: 0px 0px;
@@ -698,11 +700,6 @@ footer{
     .hero-img{
          margin-top: 50px; 
         height: 400px;
-        background-image: url(images/hero-bg.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
-        position: relative;
     }
     .hero-card{
         border: 1px solid rgba(255, 255, 255, 0.1);
@@ -829,11 +826,12 @@ footer{
         overflow: hidden;
     }
     .run img{
-        height: 300px;
+        height: 100%;
         width: 90%;
         border: none;
         border-radius:  16px;
         overflow: hidden;
+        object-fit: cover;
     }
     /* bmi calculator section */
     .bmi{
@@ -1026,7 +1024,6 @@ footer{
         margin: 0 auto;
     }
     .team-bg4{
-        background-image: url(images/trainer4.png);
         background-position: center;
     }
     /* footer */
