@@ -160,11 +160,16 @@ nav ul li:hover{
     justify-content: center;
     align-items: center;
     column-gap: 12px;
-    padding: 24px;
-    width: 35%;
+    padding: 24px 16px;
+    width: 30%;
     position: absolute;
     top: auto;
     bottom: 15%;
+    
+}
+.hero-card i{
+    font-size: 40px;
+    color: #E6533C;
     
 }
 .hero-card-2{
@@ -311,6 +316,7 @@ nav ul li:hover{
     object-position: 66% 30%;
     border: none;
     border-radius:  16px;
+    box-shadow:  0px 11px 10px -6px rgb(12, 12, 12);
 }
 .bmi-heading{
     margin: 32px auto;
@@ -419,6 +425,7 @@ nav ul li:hover{
     border: none;
     border-radius: 32px;
     margin: 16px 0;
+    cursor: pointer;
 }
 /* gym routine */
 .weekly-routine h1{
