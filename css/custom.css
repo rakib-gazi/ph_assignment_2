@@ -388,6 +388,12 @@ nav ul li:hover{
     width: 70%;
     line-height: 24px;
 }
+#select-1{
+    border-right: 10px solid transparent;
+}
+#select-2{
+    border-right: 10px solid transparent;
+}
 .calc{
     margin: 32px 0 0;
 }
@@ -909,6 +915,12 @@ footer{
         font-weight: 500;
         width: 100%;
     }
+    #select-1{
+        border-right: 10px solid transparent;
+    }
+    #select-2{
+        border-right: 10px solid transparent;
+    }
     .calc input{
         width: 90%;
     }
@@ -950,6 +962,9 @@ footer{
     .schedule {
         margin: 0 auto 24px;
     }
+    .routine .row-border td{
+        padding: 12px 0px;
+    }
     .routine {
         width: 100%;
         table-layout: fixed;
@@ -965,7 +980,6 @@ footer{
     .routine td{
         font-size: 10px;
         text-align: center;
-        word-wrap: break-word;
     }
     .routine thead tr{
         background: rgb(34, 34, 34);
