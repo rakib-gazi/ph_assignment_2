@@ -761,7 +761,7 @@ footer{
     }
     /* habit section */
     .habit{
-        padding: 0px;
+        padding-top: 32px;
         margin-top: 270px !important;
     }
     .habit-heading h1{
@@ -770,6 +770,7 @@ footer{
         font-size: 32px;
         font-weight: 900;
         padding: 12px 0;
+        margin-top: 32px;
     }
     .habit-card{
         display: grid;
