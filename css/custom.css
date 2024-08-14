@@ -15,7 +15,7 @@ header{
 }
 .container{
     width: 90%;
-    margin: auto;
+    margin: none;
 }
 /* nav */
 nav h1{
@@ -182,7 +182,7 @@ nav ul li:hover{
     align-items: center;
     column-gap: 12px;
     padding: 24px;
-    width: 30%;
+    width: 25%;
     position: absolute;
     top: 25%;
     bottom: auto;
@@ -630,7 +630,6 @@ footer{
    }
     .container{
         width: 90%;
-        margin: auto;
     }
     nav .menu-icon{
         display: flex;
@@ -896,7 +895,10 @@ footer{
         width: 90%;
         line-height: 24px;
     }
-    .calc input,select,option{
+    .calc{
+       width: 90%; 
+    }
+    /* .calc input,select,option{
         border: none;
         border-radius: 8px;
         padding: 8px;
@@ -904,17 +906,33 @@ footer{
         background: rgba(255, 255, 255, 0.1);
         color: rgba(255, 255, 255, 0.6);
         font-weight: 500;
+        width: 90%;
+    } */
+    .calc input,
+    .calc select {
+        border: none;
+        border-radius: 8px;
+        padding: 8px;
+        font-size: 12px;
+        background: rgba(255, 255, 255, 0.1);
+        color: rgba(255, 255, 255, 0.6);
+        font-weight: 500;
+        width: 100%;
+    }
+    .calc input{
+        width: 90%;
     }
     .input-group{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         gap: 10px;
+        width: 100%;
     }
     .bg{
         background-color: rgb(48, 47, 47)!important; 
     }
     .activity{
-        width: 100%;
+        min-width: 100%;
         margin: 16px 0;
     }
     .calc button{
@@ -957,6 +975,7 @@ footer{
     .routine td{
         font-size: 10px;
         text-align: center;
+        word-wrap: break-word;
     }
     .routine thead tr{
         background: rgb(34, 34, 34);
