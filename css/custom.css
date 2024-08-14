@@ -15,7 +15,7 @@ header{
 }
 .container{
     width: 90%;
-    margin: none;
+    margin: 0 auto;
 }
 /* nav */
 nav h1{
@@ -761,7 +761,7 @@ footer{
     }
     /* habit section */
     .habit{
-        padding-bottom: 0;
+        padding: 0px;
         margin-top: 270px !important;
     }
     .habit-heading h1{
@@ -770,7 +770,6 @@ footer{
         font-size: 32px;
         font-weight: 900;
         padding: 12px 0;
-        margin-top: 32px;
     }
     .habit-card{
         display: grid;
@@ -898,16 +897,6 @@ footer{
     .calc{
        width: 90%; 
     }
-    /* .calc input,select,option{
-        border: none;
-        border-radius: 8px;
-        padding: 8px;
-        font-size: 12px;
-        background: rgba(255, 255, 255, 0.1);
-        color: rgba(255, 255, 255, 0.6);
-        font-weight: 500;
-        width: 90%;
-    } */
     .calc input,
     .calc select {
         border: none;
